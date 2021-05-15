@@ -458,15 +458,20 @@ a, a:visited, a:hover {
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.103);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.103);
   background: rgba(255, 255, 255, 0.5);
-  border-radius: 18px;
+  border-radius: 10px;
 }
 
 .header__logo img {
-  margin-top: 2px;
   margin-left: 12px;
   margin-right: 12px;
   width: auto;
   height: 2.375rem;
+}
+
+@media only screen and (max-width: 766px) {
+  .header__logo img {
+    margin-left: 195%;
+  }
 }
 
 .header__toggle span {
