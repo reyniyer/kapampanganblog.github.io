@@ -776,4 +776,35 @@ body {
     width: 30px;
   }
 }
+
+.footer {
+  background-color: black;
+  padding: 1.5rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container a {
+  color: white;
+}
+
+.footer .container__logo {
+  display: inline-block;
+}
+
+@media (max-width: 63.9375em) {
+  .footer .container__logo {
+    margin-bottom: 0.875rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .footer .container__logo {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 /*# sourceMappingURL=compile.css.map */
